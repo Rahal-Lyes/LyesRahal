@@ -17,7 +17,9 @@
   --blue-400: #61dafb;
   --blue-800: #0a61ae;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -39,6 +41,7 @@ header {
   align-items: center;
   margin: 0 auto;
   position: relative;
+ 
 }
 header .container .logo {
   width: 180px;
